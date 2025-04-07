@@ -25,6 +25,7 @@
 ../../task1_integ/router_mcsequencer.sv
 ../../task1_integ/router_mcseqs_lib.sv
 ../../task1_integ/router_test_lib.sv
+../../task1_integ/router_scoreboard.sv 
 
 # Main testbench files
 ../../yapp/sv/clkgen.sv   # Added clkgen.sv
