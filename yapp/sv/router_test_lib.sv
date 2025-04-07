@@ -143,3 +143,31 @@ class mc_simple_test extends base_test;
   endfunction
 endclass
 
+
+//for point 7
+//class mc_simple_test extends base_test;
+  //`uvm_component_utils(mc_simple_test)
+
+  //function new(string name = "mc_simple_test", uvm_component parent);
+   // super.new(name, parent);
+  //endfunction
+
+  //function void build_phase(uvm_phase phase);
+    // // Comment this out to allow generation of long packets
+   // // uvm_factory::get().set_type_override_by_type(
+   // //   yapp_packet_seq::get_type(), 
+   // //   yapp_short_packet_seq::get_type()
+   // // );
+
+   // uvm_config_wrapper::set(this, "*ch*", "default_sequence", channel_rx_resp_seq::get_type());
+  //  uvm_config_wrapper::set(this, "*clk_rst*", "default_sequence", clk10_rst5_seq::get_type());
+ //   uvm_config_wrapper::set(this, "tb.mcseqr.run_phase", "default_sequence", router_simple_mcseq::get_type());
+
+  //  // Set HBUS default sequence to configure MAXPKTSIZE = 20
+ //   uvm_config_wrapper::set(this, "*hbus*.m_sequencer.run_phase", "default_sequence", hbus_small_packet_seq::get_type());
+
+  //  super.build_phase(phase);
+    //`uvm_info(get_type_name(), "Starting build_phase for mc_simple_test", UVM_MEDIUM)
+  //endfunction
+//endclass
+
